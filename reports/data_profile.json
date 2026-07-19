@@ -1,0 +1,93 @@
+{
+    "row_count": 1964022,
+    "column_count": 12,
+    "columns": [
+        "month",
+        "town",
+        "flat_type",
+        "block",
+        "street_name",
+        "storey_range",
+        "floor_area_sqm",
+        "flat_model",
+        "lease_commence_date",
+        "resale_price",
+        "source_file",
+        "remaining_lease"
+    ],
+    "data_types": {
+        "month": "object",
+        "town": "object",
+        "flat_type": "object",
+        "block": "object",
+        "street_name": "object",
+        "storey_range": "object",
+        "floor_area_sqm": "float64",
+        "flat_model": "object",
+        "lease_commence_date": "int64",
+        "resale_price": "float64",
+        "source_file": "object",
+        "remaining_lease": "object"
+    },
+    "missing_values": {
+        "remaining_lease": 1418100,
+        "month": 0,
+        "town": 0,
+        "flat_type": 0,
+        "block": 0,
+        "street_name": 0,
+        "storey_range": 0,
+        "floor_area_sqm": 0,
+        "flat_model": 0,
+        "lease_commence_date": 0,
+        "resale_price": 0,
+        "source_file": 0
+    },
+    "unique_count": {
+        "month": 439,
+        "town": 27,
+        "flat_type": 8,
+        "block": 2772,
+        "street_name": 595,
+        "storey_range": 25,
+        "floor_area_sqm": 232,
+        "flat_model": 34,
+        "lease_commence_date": 57,
+        "resale_price": 10274,
+        "source_file": 6,
+        "remaining_lease": 750
+    },
+    "duplicate_records": "3854",
+    "statistics": {
+        "floor_area_sqm": {
+            "count": 1964022.0,
+            "mean": 95.66031164620357,
+            "std": 25.72325787749771,
+            "min": 28.0,
+            "25%": 73.0,
+            "50%": 93.0,
+            "75%": 113.0,
+            "max": 366.7
+        },
+        "lease_commence_date": {
+            "count": 1964022.0,
+            "mean": 1988.8420832353202,
+            "std": 11.215022395707258,
+            "min": 1966.0,
+            "25%": 1981.0,
+            "50%": 1986.0,
+            "75%": 1996.0,
+            "max": 2022.0
+        },
+        "resale_price": {
+            "count": 1964022.0,
+            "mean": 338964.9800116394,
+            "std": 188005.96033232397,
+            "min": 5000.0,
+            "25%": 200000.0,
+            "50%": 310000.0,
+            "75%": 438500.0,
+            "max": 1728000.0
+        }
+    }
+}

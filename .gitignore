@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebook outputs
+notebooks/output/
+
+# Generated output datasets
+hashed_dataset.csv
+transformed_dataset.csv
+cleaned_dataset.csv
+master_dataset.csv
+
+# If these files are inside any folder
+**/hashed_dataset.csv
+**/transformed_dataset.csv
+**/cleaned_dataset.csv
+**/master_dataset.csv
